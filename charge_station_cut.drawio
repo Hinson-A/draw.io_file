@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T06:17:48.981Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="mW_r0xxQ577GM8yl73sB" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T06:22:51.966Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="iLhtDAXiSX112WAZsAvG" version="22.0.8" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="2258" dy="1273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2454" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7baba1c4bc27f4b0-2" value="Charge" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;align=center;" parent="1" vertex="1">
+        <mxCell id="7baba1c4bc27f4b0-2" value="Stage_Cut" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;align=center;" parent="1" vertex="1">
           <mxGeometry x="240" y="80" width="100" height="830" as="geometry" />
         </mxCell>
         <mxCell id="axAvxxxvhooYrCe9LgOZ-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;" parent="7baba1c4bc27f4b0-2" vertex="1">
@@ -106,39 +106,45 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="f3FlowwENoonX9C4ZPBU-1" value="UI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=25;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="860" y="40" width="370" height="176" as="geometry" />
+        <mxCell id="f3FlowwENoonX9C4ZPBU-1" value="UI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=22;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="860" y="40" width="370" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="f3FlowwENoonX9C4ZPBU-2" value="&lt;ul style=&quot;font-size: 25px;&quot;&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;充电站切割模式判断&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;设置充电站切割模式&lt;/li&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;接收状态反馈&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=25;" vertex="1" parent="f3FlowwENoonX9C4ZPBU-1">
-          <mxGeometry y="26" width="370" height="150" as="geometry" />
+        <mxCell id="f3FlowwENoonX9C4ZPBU-2" value="&lt;ul style=&quot;font-size: 22px; line-height: 110%;&quot;&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;充电站切割模式判断&lt;br style=&quot;font-size: 22px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;设置充电站切割模式&lt;/li&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;接收状态反馈&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="f3FlowwENoonX9C4ZPBU-1">
+          <mxGeometry y="26" width="370" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="f3FlowwENoonX9C4ZPBU-3" value="Planning" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=25;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="860" y="430" width="370" height="236" as="geometry">
+        <mxCell id="f3FlowwENoonX9C4ZPBU-3" value="Planning" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=22;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="855" y="480" width="370" height="180" as="geometry">
             <mxRectangle x="992" y="221" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f3FlowwENoonX9C4ZPBU-4" value="&lt;p style=&quot;line-height: 130%; font-size: 25px;&quot;&gt;&lt;/p&gt;&lt;pre style=&quot;line-height: 130%; font-size: 25px;&quot;&gt;&lt;ul style=&quot;font-size: 25px; line-height: 150%;&quot;&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;切割路径计算&lt;/li&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;充电站切割完成判断&lt;/li&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;发送路径给Tracking&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;接收Tracking跟踪反馈&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/pre&gt;&lt;p style=&quot;font-size: 25px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 25px;&quot;&gt;&lt;/p&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=25;" vertex="1" parent="f3FlowwENoonX9C4ZPBU-3">
-          <mxGeometry y="26" width="370" height="210" as="geometry" />
+        <mxCell id="f3FlowwENoonX9C4ZPBU-4" value="&lt;p style=&quot;line-height: 130%; font-size: 22px;&quot;&gt;&lt;/p&gt;&lt;pre style=&quot;line-height: 130%; font-size: 22px;&quot;&gt;&lt;ul style=&quot;font-size: 22px; line-height: 110%;&quot;&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;切割路径计算&lt;/li&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;充电站切割完成判断&lt;/li&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;发送路径给Tracking&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;接收Tracking跟踪反馈&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/pre&gt;&lt;p style=&quot;font-size: 22px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 22px;&quot;&gt;&lt;/p&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="f3FlowwENoonX9C4ZPBU-3">
+          <mxGeometry y="26" width="370" height="154" as="geometry" />
         </mxCell>
-        <mxCell id="f3FlowwENoonX9C4ZPBU-5" value="Tracking" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=25;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="860" y="710" width="360" height="196" as="geometry">
+        <mxCell id="f3FlowwENoonX9C4ZPBU-5" value="Tracking" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=22;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="860" y="690" width="360" height="170" as="geometry">
             <mxRectangle x="992" y="221" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f3FlowwENoonX9C4ZPBU-6" value="&lt;pre style=&quot;line-height: 130%; font-size: 25px;&quot;&gt;&lt;ul style=&quot;font-size: 25px;&quot;&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;沿边路径跟踪&lt;/li&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 25px;&quot;&gt;处理沿边碰撞&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 25px;&quot;&gt;处理超声&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 25px;&quot;&gt;跟踪结果上报&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/pre&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=25;" vertex="1" parent="f3FlowwENoonX9C4ZPBU-5">
-          <mxGeometry y="26" width="360" height="170" as="geometry" />
+        <mxCell id="f3FlowwENoonX9C4ZPBU-6" value="&lt;pre style=&quot;line-height: 130%; font-size: 22px;&quot;&gt;&lt;ul style=&quot;font-size: 22px; line-height: 110%;&quot;&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;沿边路径跟踪&lt;/li&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;处理沿边碰撞&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;处理超声&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;跟踪结果上报&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/pre&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="f3FlowwENoonX9C4ZPBU-5">
+          <mxGeometry y="26" width="360" height="144" as="geometry" />
         </mxCell>
-        <mxCell id="f3FlowwENoonX9C4ZPBU-7" value="Map" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=25;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="860" y="260" width="370" height="106" as="geometry" />
+        <mxCell id="f3FlowwENoonX9C4ZPBU-7" value="Map" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=22;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="860" y="200" width="370" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="f3FlowwENoonX9C4ZPBU-8" value="&lt;p style=&quot;line-height: 120%; font-size: 25px;&quot;&gt;&lt;/p&gt;&lt;ul style=&quot;font-size: 25px;&quot;&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;获取目标区域地图&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;font-size: 25px;&quot;&gt;&lt;/p&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=25;" vertex="1" parent="f3FlowwENoonX9C4ZPBU-7">
-          <mxGeometry y="26" width="370" height="80" as="geometry" />
+        <mxCell id="f3FlowwENoonX9C4ZPBU-8" value="&lt;p style=&quot;line-height: 120%; font-size: 22px;&quot;&gt;&lt;/p&gt;&lt;ul style=&quot;font-size: 22px; line-height: 100%;&quot;&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;获取目标区域地图&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;font-size: 22px;&quot;&gt;&lt;/p&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="f3FlowwENoonX9C4ZPBU-7">
+          <mxGeometry y="26" width="370" height="64" as="geometry" />
         </mxCell>
         <mxCell id="f3FlowwENoonX9C4ZPBU-9" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="410" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f3FlowwENoonX9C4ZPBU-10" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 35px;&quot;&gt;&lt;b&gt;充电站切割&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="290" y="10" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f3FlowwENoonX9C4ZPBU-11" value="Stage_cut" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=22;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="860" y="320" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="f3FlowwENoonX9C4ZPBU-12" value="&lt;p style=&quot;line-height: 120%; font-size: 22px;&quot;&gt;&lt;/p&gt;&lt;ul style=&quot;font-size: 22px; line-height: 110%;&quot;&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;判断充电站是否在界内&lt;/li&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;判断该区域是否已割&lt;/li&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;返回是否需要充电站切割&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;font-size: 22px;&quot;&gt;&lt;/p&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="f3FlowwENoonX9C4ZPBU-11">
+          <mxGeometry y="26" width="370" height="104" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
