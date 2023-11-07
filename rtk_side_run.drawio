@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T06:03:03.041Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="zEWdU1PNUgb3QvWyZV66" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T06:18:14.963Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="yLUKbse3EW0Sm8kJ_c7o" version="22.0.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3537" dy="1312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3085" dy="2364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -322,6 +322,9 @@
         </mxCell>
         <mxCell id="zaNChpnI-5PvR66K3o0N-24" value="&lt;p style=&quot;line-height: 120%; font-size: 25px;&quot;&gt;&lt;/p&gt;&lt;ul style=&quot;font-size: 25px;&quot;&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;获取目标区域地图&lt;/li&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;获取目标区域边界&lt;/li&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;保存续割地图&lt;/li&gt;&lt;li style=&quot;font-size: 25px;&quot;&gt;加载续割地图&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;font-size: 25px;&quot;&gt;&lt;/p&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=25;" vertex="1" parent="zaNChpnI-5PvR66K3o0N-23">
           <mxGeometry y="26" width="370" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="zaNChpnI-5PvR66K3o0N-30" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 35px;&quot;&gt;&lt;b&gt;沿边切割&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="227" y="-30" width="330" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
